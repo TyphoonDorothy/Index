@@ -1,0 +1,12 @@
+img{
+    height: 100px;
+    width: auto;
+}
+div{
+    box-sizing: border-box;
+}
+.one{
+    background-color: hsl(128, 100%, 80%);
+    border: 3px dashed darkcyan;
+    
+}
