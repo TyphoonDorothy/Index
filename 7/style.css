@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block{
+    padding: 10px;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+}
+li{
+    padding: 10px;
+}
+.box1{
+    background-color: rgb(255, 241, 46);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    font-size: 25px;
+    color: green;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+.fa-satellite-dish{
+    font-size: 33px;
+    color: rgb(255, 0, 0);
+}
+.fa-rocket{
+    font-size: 33px;
+    color: rgb(255, 0, 0);
+}
+.fa-user-astronaut{
+    font-size: 33px;
+    color: rgb(255, 0, 0);
+}
+.box1:hover{
+    width: 70%;
+    background-color: lavender;
+}
+.block2{
+    padding: 10px;
+    margin: 10px;
+}
+.box2{
+    background-color: rgb(60, 46, 255);
+    margin: 20px;
+    padding: 10px;
+    height: 200px;
+    width: 800px;
+    border-radius: 10px;
+    display: flex;  
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+li:hover{
+    font-size: 33px;
+    color: purple;
+}
+.miniboxes{
+    background-color:lightpink;
+    width: 100px;
+    height: 100px; 
+    animation: animatio 2s linear infinite alternate-reverse; 
+   
+}
+.fa-satellite-dish:hover, .fa-rocket:hover, .fa-user-astronaut:hover{
+    color: blue;
+    font-size: 40px;
+}
+@keyframes animatio{
+   from{
+        -webkit-transform:skewX(20deg);
+    }
+   to{
+        -webkit-transform: skewX(-20deg);
+    }
+}
+.block3{
+    padding: 10px;
+    margin: 20px;
+    height: 200px;
+    width: 700px;
+}
+picture{
+    width: 1000px;
+    height: 1000px;
+}
