@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family:'Courier New', Courier, monospace;
+}
+.img1{
+    height: 20px;
+    width: auto;
+}
+ul{
+    list-style-type: none;
+}
+.list li:first-child{
+    text-decoration: line-through;
+}
+.list li:last-child{
+    font-weight: bold;
+}
+.list li:nth-child(2){
+    text-transform: uppercase;
+}
+.list li:nth-child(3){
+    font-style: italic;
+}
+.list li{
+    transition: .5s ease-in;
+}
+.list li::before{
+    content:"";
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: url(1.svg) no-repeat center;
+    background-size: cover;
+}
+.list li:hover::before{
+    background: url(1-svg.svg) no-repeat center;
+    background-size: cover;
+}
+.list li:hover{
+    color: darkorange;
+}
+.img2{
+    width: 30px;
+    height: auto;
+}
+.btn{
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    background-color: rgb(252, 150, 252);
+    font-family:'Courier New', Courier, monospace;
+    border: 3px dashed orchid;
+    border-radius: 30%;
+    transition: .4s linear;
+}
+.btn::after{
+    content: "";
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: url(2.svg) no-repeat center;
+    background-size: cover;
+}
+.btn:hover{
+    background-color: cadetblue;
+}
+a:visited{
+    background-color: green;
+    text-decoration: none;
+}
+.box2{
+    margin-top: 10px;
+}
+.box3 p:first-child::first-letter{
+    font-size: 25px;
+    color: rebeccapurple;
+    font-weight: bold;
+}
+.box3 p:last-child::first-line{
+    color: seagreen;
+    font-style: italic;
+}
