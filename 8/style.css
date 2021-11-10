@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 1200px;
+    margin: 40px;
+    padding: 30px;
+}
+.content1, .content2{
+    margin: 20px;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.part{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.image1{
+    width: 500px;
+    position: relative;
+    padding-bottom: 58%;
+    margin: 0 0 20px 0;
+}
+.image1 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+}
