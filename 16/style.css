@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.posbg{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+.nav-link{
+    color: aliceblue;
+}
+.ib1{
+    background: url(./5.jpg) no-repeat center;
+    background-size: cover;
+}
+.t1{
+    background-color: rgba(255, 255, 255, .76);
+    color: seagreen;
+}
+.ib2{
+    background: url(./6.jfif) no-repeat center;
+    background-size: cover;
+}
+.ib3{
+    background: url(./7.jpg) no-repeat center;
+    background-size: cover;
+}
