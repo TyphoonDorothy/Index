@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+.panel{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+    height: 100px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.ua{
+    background: #4AD295;
+    border-radius: 20%;
+    padding: 3px;
+}
+.header-item{
+    border-right: 3px solid #E2E2E2;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+#maistra, #tour{
+    width: 240px;
+    height: 55px;
+    font-size: 20px;
+
+}
+.fa-instagram{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sm{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+}
+.fa-phone-volume{
+    font-size: 30px;
+    padding-left: 10px;
+}
+.calendar, .search{
+    display: block;
+    height: 55px;
+    width: 55px;
+    background-color: #DD4053;
+    color: rgb(255, 255, 255);
+    
+}
+.fa-calendar-check{
+    font-size: 40px;
+}
+.maistra-box{
+    display: flex;
+    align-items: center;
+}
+#tour{
+    background-color: #E2E2E2;
+}
