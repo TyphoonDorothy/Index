@@ -1,0 +1,40 @@
+body{
+    font-family: 'Spartan', sans-serif;
+}
+h1{
+    color: rgb(243, 231, 56);
+    display: inline-block;
+}
+.calc{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(24,124,241,1) 100%);
+    border-radius: 30px;
+    width: 500px;
+}
+.calc-inner{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+input{
+    width: 150px;
+    border: none;
+    height: 30px;
+}
+.input{
+    margin: 10px;
+}
+.buttons{
+    margin: 10px;
+}
+.result{
+    margin: 10px;
+}
+.calc-inner button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: lavenderblush;
+}

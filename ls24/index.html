@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Hello JS</h1>
+    <button onclick=changeColor()>Change color</button>
+    <button onclick=changeSize()>Change font size</button>
+    <button onclick=changeBg()>Change background</button>
+    <button onclick=addBorder()>Add border</button>
+
+    <div class="calc">
+        <div class="calc-inner">
+            <div class="input">
+                <input type="text" placeholder="Число" class="num1">
+                <input type="text" placeholder="Число" class="num2">
+            </div>
+            <div class="buttons">
+                <button onclick=plus() class="btn">+</button>
+                <button onclick=minus() class="btn">-</button>
+                <button onclick=multiply() class="btn">*</button>
+                <button onclick=divide() class="btn">:</button>
+                <button onclick=percent() class="btn">%</button>
+            </div>
+            <input type="text" placeholder="Результат" class="result">
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
