@@ -1,0 +1,44 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(23deg, rgb(89, 184, 65),rgb(0, 174, 255));
+}
+/* .message{
+    border: 3px dashed slateblue;
+    background: linear-gradient(23deg, rgb(89, 184, 65),rgb(0, 174, 255));
+} */ 
+
+.container{
+    border: 5px solid seagreen;
+    width: 1000px;
+    height: 1000px;
+    margin: 20px;
+}
+.nav{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+}
+.controller{
+    display: flex;
+    flex-wrap: wrap;
+}
+.up{
+    width: 100%;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+.down{
+    width: 100%;
+}
